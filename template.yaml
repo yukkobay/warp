@@ -1,0 +1,23 @@
+accent: "$gold"
+background: "$base"
+details: $(darker|darker|lighter)
+foreground: "$text"
+terminal_colors:
+  bright:
+    black: "$muted"
+    blue: "$foam"
+    cyan: "$rose"
+    green: "$pine"
+    magenta: "$iris"
+    red: "$love"
+    white: "$text"
+    yellow: "$gold"
+  normal:
+    black: "$overlay"
+    blue: "$foam"
+    cyan: "$rose"
+    green: "$pine"
+    magenta: "$iris"
+    red: "$love"
+    white: "$text"
+    yellow: "$gold"

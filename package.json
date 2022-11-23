@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "build -t ./template.yaml -o ./dist",
+    "dev": "npm run build -- -w",
+    "release": "cd dist && for f in *-*; do mv -v -- \"$f\" \"$(echo \"$f\" | tr '-' '_')\"; done"
+  },
+  "devDependencies": {
+    "@rose-pine/build": "^0.5.1"
+  }
+}
